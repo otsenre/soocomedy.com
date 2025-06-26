@@ -1,0 +1,111 @@
+---
+layout: default
+title: sooComedy
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sooComedy</title>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DXM456T0EF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} // eslint-disable-line
+    gtag('js', new Date());
+    gtag('config', 'G-DXM456T0EF');
+  </script>
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <style>
+    body {
+      background-color: #111;
+      color: #eee;
+      font-family: 'Courier New', Courier, monospace;
+      margin: 0;
+      padding: 2rem;
+      line-height: 1.6;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #fff;
+      display: flex;
+      align-items: center;
+    }
+    h2 {
+      font-size: 1.8rem;
+      color: #fff;
+      margin-top: 2.5rem;
+    }
+    h1 img {
+      height: 48px;
+      margin-right: 1rem;
+    }
+    p {
+      font-size: 1.1rem;
+      max-width: 600px;
+    }
+    a {
+      color: #9af;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .social {
+      margin-top: 2rem;
+    }
+    .social a {
+      display: inline-block;
+      margin-right: 1rem;
+      font-size: 1rem;
+    }
+    .latest-video {
+      margin-top: 3rem;
+    }
+    .video-wrapper {
+      position: relative;
+      padding-bottom: 56.25%; /* 16:9 */
+      height: 0;
+      overflow: hidden;
+      max-width: 100%;
+    }
+    .video-wrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .footer {
+      margin-top: 4rem;
+      font-size: 0.8rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <h1><img src="/favicon.png" alt="sooComedy logo">sooComedy</h1>
+  <p>Dark essays with dry wit. Philosophy, depression, and surviving retail.
+  Occasional sarcasm. Always sincere. Sometimes funny.</p>
+
+  <div class="social">
+    <a href="https://www.youtube.com/@soocomedy" target="_blank">YouTube</a>
+    <a href="https://www.tiktok.com/@soocomedy" target="_blank">TikTok</a>
+    <a href="https://www.instagram.com/soocomedy" target="_blank">Instagram</a>
+  </div>
+
+  <div class="latest-video">
+    <h2>Latest Video</h2>
+    <div class="video-wrapper">
+      <!-- Replace VIDEO_ID_HERE with your latest YouTube video ID -->
+      <iframe src="https://www.youtube.com/embed/VIDEO_ID_HERE" title="Latest sooComedy Video" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <div class="footer">
+    &copy; 2025 sooComedy — Built by Ernie Reyes · Hosted on GitHub Pages
+  </div>
+</body>
+</html>
